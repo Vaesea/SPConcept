@@ -33,6 +33,7 @@ jobs:
           haxelib setup C:/haxelib
           haxelib install hxcpp > /dev/null --quiet
           .\"setup/windows.bat"
+          haxelib run lime setup
         shell: cmd
       - name: Compile
         run: lime test windows -debug
