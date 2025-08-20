@@ -3,7 +3,7 @@ This is no longer gonna be "PepperTux" this is gonna be a concept for VDAB: Stee
 
 Currently, everything in the assets folder is from SuperTux except the music.
 
-The SuperTux things will be replaced! I think it's just the logo.
+The SuperTux things will be replaced!
 
 ## How To Compile
 These are the versions of the things I use. You may be able to install later or earlier versions of these, however, I wouldn't recommend it
