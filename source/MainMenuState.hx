@@ -28,7 +28,7 @@ class MainMenuState extends FlxState
 		logo.screenCenter(FlxAxes.X);
 		add(logo);
 
-        FlxTween.tween(logo, {y: logo.y + 35}, 0.6, {ease: FlxEase.circInOut, type: PINGPONG});
+        FlxTween.tween(logo, {y: logo.y + 35}, 0.8, {ease: FlxEase.circInOut, type: PINGPONG});
 
         // New button, center button, add button.
         
@@ -49,6 +49,13 @@ class MainMenuState extends FlxState
 
 	override public function update(elapsed:Float)
 	{
+        #if debug
+        if (FlxG.keys.justPressed.Q) // The state will be changed to a level select once that is actually finished. For now it's a key where you go to PlayState quickly.
+        {
+            FlxG.sound.music.stop();
+            FlxG.switchState(new PlayState());
+        }
+        #end
 		super.update(elapsed);
 	}
     

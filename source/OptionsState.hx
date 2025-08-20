@@ -15,7 +15,7 @@ class OptionsState extends FlxState
         var noOptions:FlxText;
         var goToMenu:FlxButton;
 
-        noOptions = new FlxText(0, 50, 0, "No Options Yet!", 32);
+        noOptions = new FlxText(0, 50, 0, "No Options Exist Yet!", 32);
         noOptions.setFormat(null, 32, FlxColor.RED, FlxTextAlign.CENTER);
         noOptions.screenCenter(FlxAxes.X);
         add(noOptions);
