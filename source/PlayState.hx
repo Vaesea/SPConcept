@@ -1,5 +1,6 @@
 package;
 
+import flixel.FlxG;
 import flixel.FlxState;
 
 class PlayState extends FlxState
@@ -12,6 +13,8 @@ class PlayState extends FlxState
 		add(bambi);
 
 		super.create();
+
+		FlxG.camera.zoom = 0.9;
 
 	}
 
