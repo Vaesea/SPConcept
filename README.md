@@ -1,9 +1,5 @@
 # Temporary Title
-This is no longer gonna be "PepperTux" this is gonna be a concept for VDAB: Steel Paperclip
-
-Currently, everything in the assets folder is from SuperTux except the music.
-
-The SuperTux things will be replaced!
+This is a concept for VS Dave And Bambi: Steel Paperclip Edition. Temporary Title is not it's title.
 
 ## How To Compile
 These are the versions of the things I use. You may be able to install later or earlier versions of these, however, I wouldn't recommend it
