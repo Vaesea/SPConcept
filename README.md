@@ -23,3 +23,8 @@ haxelib run lime setup (Needed for you to use the lime test / build windows comm
 lime test windows -debug (builds it as a debug build)
 
 lime build windows -release (builds it as a release build)
+
+## How To Play Without Compiling
+You can play by going to the GitHub Actions page for this repository, or, when this gets included in VDAB: Steel Paperclip Edition, I'll likely do one of these things:
+1. Make it so you need to press 2 on the Main Menu to go to this game.
+2. Make it so when you press 7 in a Bambi song, you get brought to this game.
