@@ -21,6 +21,12 @@ class MainMenuState extends FlxState
 	{
         super.create();
 
+        var bg = new FlxSprite();
+        bg.loadGraphic("assets/images/menu/menubg.png", false);
+        bg.x = 0;
+        bg.y = 0;
+        add(bg);
+
         var logo = new FlxSprite();
 		logo.loadGraphic("assets/images/title/logo.png", false);
         logo.x = 0;
