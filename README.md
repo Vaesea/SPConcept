@@ -16,10 +16,12 @@ haxelib install flixel-addons 3.2.2 (Not used right now, will be in the future)
 
 haxelib install flixel-tools 1.5.1 (Not sure what this is used for, but the haxeflixel website says you should install it, and I have it installed, so you should probably install it)
 
-haxelib run lime setup (Needed for you to use the lime test / build windows command)
+haxelib run lime setup (Needed for you to use the lime test / build platform command)
 
 3. Now, open a terminal and build the game using one of these commands:
 
-lime test windows -debug (builds it as a debug build)
+lime test os -debug (builds it as a debug build)
 
-lime build windows -release (builds it as a release build)
+lime build os -release (builds it as a release build)
+
+"os" can be replaced with "windows", "mac" or "linux", however you need to be on the OS you're compiling for to compile for that OS as far as I know, so for example, you need to be on Linux to compile for Linux. However, you can use virtual machines.
