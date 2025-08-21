@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="bambi.png">
-<SubTexture name="idle0000" x="0" y="0" width="249" height="297" frameX="-152" frameY="-54" frameWidth="550" frameHeight="400" />
-<SubTexture name="left0000" x="249" y="0" width="285" height="291" frameX="-135" frameY="-57" frameWidth="550" frameHeight="400" />
-<SubTexture name="right0000" x="534" y="0" width="284" height="291" frameX="-131" frameY="-57" frameWidth="550" frameHeight="400" />
-</TextureAtlas>
