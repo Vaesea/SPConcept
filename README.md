@@ -12,7 +12,7 @@ haxelib install openfl 9.3.3
 
 haxelib install flixel 5.6.1
 
-haxelib install flixel-addons 3.2.2 (Not used right now, will be in the future)
+haxelib install flixel-addons 3.2.2
 
 haxelib install flixel-tools 1.5.1 (Not sure what this is used for, but the haxeflixel website says you should install it, and I have it installed, so you should probably install it)
 
